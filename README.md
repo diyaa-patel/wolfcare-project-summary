@@ -37,7 +37,11 @@ WolfCafe is a team software engineering project for managing cafe orders, invent
 
 ## Screenshots
 
-_Add screenshots or demo images here._
+![Login](images/login.png)
+![Menu Layout](images/menu-layout.png)
+![Order Queue](images/order-queue.png)
+![Staff Directory](images/staff-directory.png)
+![UML](images/uml.jpeg)
 
 ## What I Learned
 
