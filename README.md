@@ -20,11 +20,12 @@ WolfCafe is a team software engineering project for managing cafe orders, invent
 
 ## My Contributions
 
-- Built frontend components for customer-facing order workflows
-- Integrated frontend pages with backend REST APIs
-- Implemented role-based UI behavior and authentication flows
-- Helped debug frontend/backend communication and access control issues
-- Added automated frontend tests to improve reliability
+- Contributed to backend UML design, REST API planning, and system architecture decisions
+- Helped design and implement role-based workflows for customers, staff, and administrators
+- Worked on frontend-backend integration using React, Spring Boot, JWT authentication, and REST APIs
+- Assisted with order management, permissions, and inventory-related workflows
+- Participated in Agile development, GitHub issue tracking, testing, inspections, and iterative feature development
+- Added automated frontend tests and helped debug frontend/backend communication issues
 
 ## Key Features
 
