@@ -2,8 +2,6 @@
 
 Full-stack cafe ordering web application built with React, Spring Boot, MySQL, REST APIs, and JWT authentication.
 
-> Source code is maintained in a private NC State course repository due to course policy. This public repository provides a project summary, screenshots, tech stack, and my contributions.
-
 ## Overview
 
 WolfCafe is a team software engineering project for managing cafe orders, inventory, users, and role-based workflows. The application supports different user roles such as customer, staff, and admin.
