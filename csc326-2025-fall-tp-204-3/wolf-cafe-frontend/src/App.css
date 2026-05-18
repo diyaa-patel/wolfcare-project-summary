@@ -1,0 +1,87 @@
+#root {
+  width: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/** Added Wolf card design layout */
+.recipe-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional table tweaks */
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.btn-danger {
+  background-color: #b40000;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #a00000;
+}
+.navbar-nav .nav-link.active {
+  background-color: #fff;
+  color: #000 !important;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Offsets content so it never sits under the fixed navbar */
+.page-container {
+  padding-top: 100px; /* adjust if your header is taller/shorter */
+  min-height: calc(100vh - 100px);
+}
+
+.login-wrapper {
+  min-height: 100vh;
+  padding-top: 80px; /* height of navbar */
+  background-color: #f8f9fa; /* optional clean bg */
+}
+
+.login-wrapper .card {
+  margin-top: -50px; /* visually centers card under navbar */
+}
